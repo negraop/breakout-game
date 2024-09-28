@@ -1,0 +1,33 @@
+cabal-version:       2.2
+
+name:                Breakout
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            
+license:             BSD-3-Clause
+license-file:        LICENSE
+author:              Pedro Antunes Negrao
+maintainer:          pedro.negrao@aluno.ufabc.edu.br
+copyright:           2024 Pedro Antunes Negrao
+category:            Web
+build-type:          Simple
+-- extra-source-files:  
+
+executable breakout
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , gloss
+                     , mtl
+                     
+  ghc-options:         -Wall
+                       -Wcompat
+                       -Widentities
+                       -Wincomplete-record-updates
+                       -Wincomplete-uni-patterns
+                       -Wmissing-export-lists
+                       -Wmissing-home-modules
+                       -Wpartial-fields
+                       -Wredundant-constraints
