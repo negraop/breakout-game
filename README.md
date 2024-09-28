@@ -10,3 +10,10 @@ Implementação do jogo Breakout de 1971 para Atari utilizando a linguagem funci
  <br />
  
 ### Usage
+
+Após configurar o compilador do Haskell na máquina utilizado o GHCUp (link da configuração do ambiente: [Configurando o ambiente](https://haskell.pesquisa.ufabc.edu.br/haskell/00.bootstraping/)), basta executar os seguintes comandos:
+
+```
+$ stack build
+$ stack run
+```
