@@ -7,7 +7,7 @@
 
 Implementação do jogo Breakout de 1971 para Atari utilizando a linguagem funcional Haskell. Nesse projeto foi utilizado a monada State para armazenar o estado do jogo, e a biblioteca Gloss para desenhar os elementos na tela, assim como tratar os inputs do teclado.
 
- <br />
+ <br /> 
  
 ### Usage
 
